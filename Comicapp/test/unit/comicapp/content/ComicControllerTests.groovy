@@ -1,10 +1,12 @@
-package comics
+package comicapp.content
 
 
 
 import org.junit.*
 
-import content.Comic;
+import comicapp.content.ComicController
+
+import comicapp.content.Comic
 import grails.test.mixin.*
 
 @TestFor(ComicController)

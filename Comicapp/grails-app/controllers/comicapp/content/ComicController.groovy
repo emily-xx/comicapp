@@ -1,8 +1,8 @@
-package comics
+package comicapp.content
 
 import org.springframework.dao.DataIntegrityViolationException
 
-import content.Comic;
+import comicapp.content.Comic;
 
 class ComicController {
 

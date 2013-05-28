@@ -1,4 +1,4 @@
-package people
+package comicapp.people
 
 class Person {
 

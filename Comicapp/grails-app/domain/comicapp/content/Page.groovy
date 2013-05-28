@@ -1,4 +1,4 @@
-package content
+package comicapp.content
 
 class Page {
 
@@ -19,4 +19,8 @@ class Page {
 
 		lastUpdated(nullable: false)
     }
+
+	static mapping = {
+		content type: 'text'
+	}
 }

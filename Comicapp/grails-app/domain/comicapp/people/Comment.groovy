@@ -1,7 +1,6 @@
-package people
+package comicapp.people
 
-import comics.*
-import content.Comic;
+import comicapp.content.Comic
 
 class Comment {
 
@@ -9,6 +8,7 @@ class Comment {
 
 	Date dateCreated
 	Date lastUpdated
+
 	String body
 
 	static constraints = {
@@ -17,6 +17,11 @@ class Comment {
 
 		dateCreated(nullable: false)
 		lastUpdated(nullable: false)
+
 		body(nullable: false, maxLength: 300)
+	}
+
+	static mapping = {
+		body type: 'text'
 	}
 }
